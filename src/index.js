@@ -21,3 +21,4 @@ if (quantidade_xp <= 1000){
 }
 
 console.log("\nO Herói de nome " + nome_heroi + " está no nível de experiência " + nivel + ".\n");
+
