@@ -2,7 +2,6 @@ let quantidade_xp = 6300;
 let nivel = "";
 let nome_heroi = "Marco";
 
-
 if (quantidade_xp <= 1000){
     nivel = "Ferro";
 } else if (quantidade_xp <= 1001 && quantidade_xp <= 2000){
@@ -21,4 +20,4 @@ if (quantidade_xp <= 1000){
     nivel = "Radiante";
 }
 
-    console.log("\nO Herói de nome " + nome_heroi + " está no nível de experiência " + nivel + ".\n");
+console.log("\nO Herói de nome " + nome_heroi + " está no nível de experiência " + nivel + ".\n");
